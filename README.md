@@ -31,6 +31,11 @@ do
     REDIS_RECORDS_KEY="bsg-the-plan" SERVICE_NAME="R" SERVICE_PORT=$resultat PORT=$resultat java  -jar target/g-raider-1.0-SNAPSHOT-fat.jar&
 done
 ```
+7. fake raider (run the nodejs raider): 
+```
+cd fake-raider
+node index.js
+```
 
 ## Play
 
